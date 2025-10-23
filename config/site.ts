@@ -5,27 +5,27 @@ export const siteConfig = {
   description:
     "Hirable Ex-AI Founder | Sharing what used to be impossible until AI",
   navItems: [
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "Contact",
-      href: "/contact",
-    },
+    // {
+    //   label: "Blog",
+    //   href: "/blog",
+    // },
+    // {
+    //   label: "Contact",
+    //   href: "/contact",
+    // },
   ],
   navMenuItems: [
     {
       label: "Home",
       href: "/",
     },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
+    // {
+    //   label: "Blog",
+    //   href: "/blog",
+    // },
     {
       label: "Contact",
-      href: "/contact",
+      href: "#contact",
     },
   ],
   links: {

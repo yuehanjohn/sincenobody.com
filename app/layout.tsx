@@ -44,15 +44,15 @@ export default function RootLayout({
           fontNunito.variable
         )}
       >
-          <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-            <div className="relative flex flex-col h-screen">
-              <Navbar />
-              <SmoothScroll>
-                <main className="w-full -mt-[100px]">{children}</main>
-                <Footer />
-              </SmoothScroll>
-            </div>
-          </Providers>
+        <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+          <div className="relative flex flex-col h-screen">
+            <Navbar />
+            <SmoothScroll>
+              <main className="w-full -mt-[100px]">{children}</main>
+              <Footer />
+            </SmoothScroll>
+          </div>
+        </Providers>
       </body>
     </html>
   );

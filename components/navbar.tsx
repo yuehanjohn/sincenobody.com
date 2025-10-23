@@ -59,11 +59,11 @@ export const Navbar = () => {
       <NavbarContent className="basis-1/5 sm:basis-full h-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <div className="flex items-center w-40">
+            <div className="flex items-center w-fit">
               <img
                 src="/assets/logos/logo.png"
                 alt="Logo"
-                className="h-5 w-auto object-contain"
+                className="h-10 w-auto object-contain"
                 style={{ aspectRatio: "auto" }}
               />
             </div>
@@ -75,20 +75,20 @@ export const Navbar = () => {
         className="hidden sm:flex basis-1/5 sm:basis-full"
         justify="end"
       >
-        <NavbarItem className="hidden sm:flex gap-2">
-            <Button as={Link} href="/blog" variant="light">
-            Blog
-            </Button>
-        </NavbarItem>
+        {/* <NavbarItem className="hidden sm:flex gap-2">
+          <Button as={Link} href="/blog" variant="light">
+            More
+          </Button>
+        </NavbarItem> */}
         <NavbarItem className="hidden md:flex">
-            <Button
+          <Button
             as={Link}
-            href="/contact"
+            href="#contact"
             startContent={<FaCircle size={8} className="text-success" />}
             variant="light"
-            >
+          >
             Contact
-            </Button>
+          </Button>
         </NavbarItem>
       </NavbarContent>
 
