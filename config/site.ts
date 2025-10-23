@@ -1,9 +1,9 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Yuehan John",
+  name: "Since Nobody",
   description:
-    "Hirable Ex-AI Founder | Sharing what used to be impossible until AI",
+    "Since nobody is doing it, so we did. A community of doers, not dreamers.",
   navItems: [
     // {
     //   label: "Blog",
@@ -29,10 +29,10 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://github.com/heroui-inc/heroui",
-    twitter: "https://twitter.com/hero_ui",
-    docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    // github: "https://github.com/heroui-inc/heroui",
+    // twitter: "https://twitter.com/hero_ui",
+    // docs: "https://heroui.com",
+    // discord: "https://discord.gg/9b6yyZKmH4",
+    // sponsor: "https://patreon.com/jrgarciadev",
   },
 };
