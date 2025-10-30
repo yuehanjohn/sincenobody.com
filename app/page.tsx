@@ -92,7 +92,7 @@ export default function TestPage() {
 
       await supabase
         .from("registrations")
-        .insert([{ email: email }, { name: name }, { answer: answer }]);
+        .insert([{ email: email, name: name, answer: answer }]);
 
       setJoinError(false);
       setFollowup(true);
