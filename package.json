@@ -25,6 +25,8 @@
     "@react-aria/ssr": "3.9.7",
     "@react-aria/visually-hidden": "3.8.21",
     "@studio-freight/lenis": "^1.0.42",
+    "@supabase/ssr": "^0.7.0",
+    "@supabase/supabase-js": "^2.77.0",
     "@tsparticles/engine": "^3.9.1",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.9.1",
